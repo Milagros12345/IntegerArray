@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1548273237 source:d:\clasepoint\main.cpp
+	<iostream>
+	"point.h"
+	"IntegerArray.h"
+
+1548257413 d:\clasepoint\include\point.h
+
+1548257413 source:d:\clasepoint\src\point.cpp
+	"point.h"
+	<iostream>
+
+1548331826 source:d:\clasepoint\src\integerarray.cpp
+	"IntegerArray.h"
+	<iostream>
+
+1548275578 d:\clasepoint\include\integerarray.h
+
