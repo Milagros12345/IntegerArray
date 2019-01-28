@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="juegoNaves" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/juegoNaves" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-audio.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-graphics.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-main.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-network.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-system.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-window.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/juegoNaves" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-audio-d.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-graphics-d.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-main-d.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-network-d.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-system-d.a" />
+					<Add library="C:/Program Files (x86)/SFML-2.5.1/lib/libsfml-window-d.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files (x86)/SFML-2.5.1/include" />
+		</Compiler>
+		<Unit filename="include/bala.h" />
+		<Unit filename="include/cScreen.h" />
+		<Unit filename="include/enemies.h" />
+		<Unit filename="include/juego.h" />
+		<Unit filename="include/nave.h" />
+		<Unit filename="include/score.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/bala.cpp" />
+		<Unit filename="src/cScreen.cpp" />
+		<Unit filename="src/enemies.cpp" />
+		<Unit filename="src/juego.cpp" />
+		<Unit filename="src/nave.cpp" />
+		<Unit filename="src/score.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

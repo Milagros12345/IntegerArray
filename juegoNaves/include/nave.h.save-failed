@@ -1,0 +1,28 @@
+#ifndef NAVE_H
+#define NAVE_H
+#include<SFML/Graphics.hpp>
+using namespace std;
+using namespace sf;
+class nave
+{
+    public:
+        nave();
+        nave2(Vector2f size,Texture &a );
+        void dibujar(RenderWindow &a);
+        ~nave();
+        void move(Vector2f dis);
+        int getSizey();
+        int getSizex();
+        int posx();
+        void setPosition(int x,int y);
+        int posy();
+    private:
+        int x,y;
+        RenderWindow ventana1;
+        Texture textura;
+        RectangleShape nave1;
+        float velocityY = 0;
+        const float gravity = 2;
+};
+
+#endif // NAVE_H
