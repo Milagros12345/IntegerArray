@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1548975550 source:d:\laboratorio2\src\polygon.cpp
+	"polygon.h"
+	<iostream>
+
+1548985046 d:\laboratorio2\include\polygon.h
+
+1548982437 source:d:\laboratorio2\main.cpp
+	<iostream>
+	"polygon.h"
+	"Rectangle.h"
+	"Triangle.h"
+	"dinamicArray.h"
+
+1548974858 source:d:\laboratorio2\src\rectangle.cpp
+	"Rectangle.h"
+	<string>
+
+1548974821 d:\laboratorio2\include\rectangle.h
+	<string.h>
+	"polygon.h"
+
+1548974881 source:d:\laboratorio2\src\triangle.cpp
+	"Triangle.h"
+
+1548974881 d:\laboratorio2\include\triangle.h
+	<string>
+	"polygon.h"
+
+1548985453 source:d:\laboratorio2\src\dinamicarray.cpp
+	"dinamicArray.h"
+	"polygon.h"
+
+1548985453 d:\laboratorio2\include\dinamicarray.h
+	"polygon.h"
+	<iostream>
+
